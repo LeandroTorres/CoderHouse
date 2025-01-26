@@ -5,43 +5,21 @@
 }
  
 .container{
-    background-color: rgb(218, 24, 24);
-}
-
-.navBar{
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
-    padding: 20px;
-}
-
-.main{
-    display: grid;
-    grid-template-rows: 1fr 2fr 2fr 2fr 2fr 2fr;
-}
-
-
-main img{
-    padding: 15px;   
-    margin: 15px;
-    border: 20px;
-}
-header ul li a{
-    border-radius: 10px;
-    box-shadow: 0px 0px 15px rgb(218, 186, 10);
-    padding: 10px 20px;
-    background-color: rgb(216, 204, 34);
-    color: aquamarine;
-}
-
-
-header nav ul li a:hover{
-    /*agregar hover*/
-}
-
-header nav ul li a:active{
-    /*agregar active*/
+    background-color: rgb(255, 255, 255);
 }
 
 .row > *{
     border: 1px solid black;
+}
+
+.nav-item{
+    background-color: blue;
+    border: 5px solid;
+}
+
+.row{
+    background-color: rgb(233, 111, 12);
+}
+.row aside{ /* agrego clase a la predeterminada de bs para diferencias color de aside */
+    background-color: blue;
 }
