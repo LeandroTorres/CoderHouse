@@ -36,8 +36,77 @@
             </header>
         </div>
         <div class="row">
-            <aside class="col-12 col-sm-6 col-md-3">aside tecnica</aside><!-- las clases "col-sm-n" se usan para los breakpoint, para que el contenido sea responsive-->
-            <main class="col-12 col-sm-6 col-md-9">main</main><!-- las clases de bootstrap trabajan predefinidas con 12 columnas disponibles, el "n" en el nombre de las clases corresponde al numero de columnas que va a ocupar-->
+            <aside class="col-12 col-sm-6 col-md-3">
+                <div class="container">
+                    <h1>TECNICA</h1>
+                <h2>Bienvenido a la Plataforma de Programa de Trabajos</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos nisi, consequatur facilis, quis aut
+                    numquam quos, ad eius iusto eum recusandae asperiores placeat? Quaerat illo, aliquid iusto doloribus sequi
+                    minima, ipsam totam harum inventore non recusandae repellat dignissimos repellendus iste reiciendis ab
+                    temporibus quisquam quibusdam, aspernatur consequuntur sapiente commodi doloremque a. Ratione, non
+                    voluptatum cumque eligendi ut incidunt fugit voluptatem reprehenderit sunt praesentium nulla minus aliquam
+                    nam deleniti neque laborum eaque libero eos impedit? Praesentium repudiandae libero suscipit accusantium,
+                    quia delectus exercitationem blanditiis similique molestias incidunt mollitia ducimus dolor neque,
+                    necessitatibus illo molestiae ipsum odio quos fugit quo! Repellendus molestias provident unde ad corporis
+                    debitis dolor officia laborum reprehenderit, minus autem tempora quae suscipit, perferendis saepe sint
+                    repudiandae reiciendis quod nesciunt nisi necessitatibus ea laudantium facilis sed! Itaque nam magni nisi
+                    atque ipsa doloribus delectus commodi nulla architecto earum reprehenderit nobis quisquam ratione ut sunt,
+                    quasi, necessitatibus fuga, tempore culpa?</p>
+                </div>
+            </aside><!-- las clases "col-sm-n" se usan para los breakpoint, para que el contenido sea responsive-->
+            <main class="col-12 col-sm-6 col-md-9">
+                <div>
+                    <div class="formulariosDobles">
+                        <h2 class="tituloFormularios">Programa de Trabajos</h2>        
+                    <form action="/submit" method="post">
+                        <label for="id">Id:</label>
+                        <input type="number" name="numeroId" id="numeroId"> <br>
+        
+                        <label for="fecha">Fecha:</label>
+                        <input type="date" name="fecha" id="fecha"> <br>
+        
+                        <label for="cliente">Cliente:</label>
+                        <input type="text" name="cliente" id="cliente"> <br>
+        
+                        <label for="Repuestos">Llevar repuestos?</label>
+                        <input type="radio" name="" id="">
+                        <label for="">Si</label>
+        
+                        <input type="radio" name="" id="">
+                        <label for="">No</label><br>
+        
+                        <button>Guardar</button>     
+        
+                    </form>
+                    </div>
+                    <div class="formulariosDobles">
+                        <h2 class="tituloFormularios">Cierre de trabajo</h2>
+        
+                    <form action="/submit" method="post">
+                        <label for="id">Id:</label>
+                        <input type="number" name="numeroId" id="numeroId"> <br>
+        
+                        <label for="fecha">Fecha:</label>
+                        <input type="date" name="fecha" id="fecha"> <br>
+        
+                        <label for="cliente">Cliente:</label>
+                        <input type="text" name="cliente" id="cliente"> <br>
+        
+                        <label for="Finalización">Finalizó?</label>
+                        <input type="radio" name="" id="">
+                        <label for="">Si</label>
+        
+                        <input type="radio" name="" id="">
+                        <label for="">No</label><br>
+        
+                        <button>Guardar</button>      
+        
+                    </form>
+                    </div>
+                    
+                    
+                </div>
+            </main><!-- las clases de bootstrap trabajan predefinidas con 12 columnas disponibles, el "n" en el nombre de las clases corresponde al numero de columnas que va a ocupar-->
         </div>
         <div class="row">
             <footer class="col">footer</footer>

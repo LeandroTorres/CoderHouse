@@ -36,8 +36,63 @@
             </header>
         </div>
         <div class="row">
-            <aside class="col-12 col-sm-6 col-md-3">aside gestion</aside><!-- las clases "col-sm-n" se usan para los breakpoint, para que el contenido sea responsive-->
-            <main class="col-12 col-sm-6 col-md-9">main</main><!-- las clases de bootstrap trabajan predefinidas con 12 columnas disponibles, el "n" en el nombre de las clases corresponde al numero de columnas que va a ocupar-->
+            <aside class="col-12 col-sm-6 col-md-3">
+                <div class="container">
+                    <h1>GESTION</h1>
+                    <h2>Bienvenidos a la plataforma de gestión de ERCO</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam iusto culpa unde delectus molestias aut
+                        atque itaque iure commodi animi, laborum voluptas voluptates velit asperiores soluta consectetur sunt
+                        ratione maiores sed tempore. Odit voluptatibus impedit, laboriosam nihil commodi aspernatur? Ipsam
+                        distinctio ratione odio ex nulla deleniti suscipit eaque consectetur laudantium. Reprehenderit saepe tempora
+                        error veniam, dolorem debitis earum, molestias perferendis laudantium, commodi neque inventore dolor ratione
+                        maiores eligendi laboriosam nobis vel rem nisi vero? Sint labore repudiandae asperiores laudantium qui vitae
+                        facere ipsam amet consequatur possimus voluptatibus perspiciatis dolore nulla repellendus accusamus quam
+                        dolorem ea quos cum, reprehenderit molestiae aliquam officiis aspernatur. Doloremque beatae a sapiente
+                        temporibus et officia aliquid porro obcaecati iusto qui reprehenderit corporis quasi sed cum quam corrupti
+                        culpa reiciendis eaque at minima aspernatur, facere amet. Rem laboriosam ad quae, provident est tempora
+                        neque quis quo explicabo accusamus eaque architecto sint vero suscipit earum magni eveniet? Suscipit.</p>
+                    </div>
+            </aside><!-- las clases "col-sm-n" se usan para los breakpoint, para que el contenido sea responsive-->
+            <main class="col-12 col-sm-6 col-md-9">
+                <div class="containerTitulos">
+                    <div class="formulariosDobles">
+                        <h3 class="tituloFormularios">Ingrese aqui los datos de su factura</h3>
+                        <form action="/submit" method="post">
+                            <label for="cliente">Cliente:</label>
+                            <input type="text" name="cliente" id="cliente"> <br>
+            
+                            <label for="numeroFactura">Numero de Factura:</label>
+                            <input type="number" name="numeroFactura" id="numeroFactura"> <br>
+            
+                            <label for="fecha">Telefono:</label>
+                            <input type="date" name="fechaFactura" id="fechaFactura"> <br>
+            
+                            <label for="monto">Monto:</label>
+                            <input type="number" name="monto" id="montoFacturado"> <br>
+            
+                            <label for="vencimiento">Vencimiento</label>
+                            <input type="date" name="" id=""><br>
+            
+                            <button>Guardar</button>
+                        </form>
+                    </div>
+                    <div class="formulariosDobles">
+                        <h3 class="tituloFormularios">Ingrese aquí los datos de su compra</h3>
+                        <form>
+        
+                            <label for="fecha">Fecha:</label>
+                            <input type="date" name="fecha" id="fecha"> <br>
+        
+                            <label for="concepto">Concepto:</label>
+                            <input type="text" name="concepto" id="concepto"> <br>
+        
+                            <label for="monto">Monto:</label>
+                            <input type="number" name="montoGasto" id="montoGasto"> <br>
+                            <button>Guardar</button>
+                        </form>
+                    </div>
+        
+            </main><!-- las clases de bootstrap trabajan predefinidas con 12 columnas disponibles, el "n" en el nombre de las clases corresponde al numero de columnas que va a ocupar-->
         </div>
         <div class="row">
             <footer class="col">footer</footer>
@@ -45,4 +100,7 @@
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>
-</html>
+</html>        
+        
+                        
+            
