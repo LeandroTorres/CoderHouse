@@ -1,5 +1,5 @@
 form {
-    background-color: rgb(235, 196, 196);
+    background-color: $fondo_formularios;
     border: 1px solid $input-border-color;
     border-radius: 8px;
     padding: 1.5rem;
@@ -25,7 +25,7 @@ form {
       transition: border-color 0.3s, box-shadow 0.3s;
   
       &:focus {
-        border-color: $input-focus-color;
+        border-color: $azul_erco;
         box-shadow: 0 0 5px $input-focus-color;
         outline: none;
       }
@@ -33,12 +33,12 @@ form {
 }
 button {
     background-color: $button-color;
-    color: white;
+    color: rgb(10, 10, 10);
     padding: 0.5rem 1rem;
     border: none;
     border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+    
+    
 
     &:hover {
       background-color: $button-hover-color;
