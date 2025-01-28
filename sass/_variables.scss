@@ -1,0 +1,23 @@
+$naranja_erco: rgb(246, 153, 36);/* color primario */
+$celeste_erco:rgb(175, 221, 235);/* color secundario */
+$gris_erco: rgb(153, 153, 153);
+$azul_erco: rgb(66, 125, 191);
+$color_texto: rgb(24, 22, 22);
+$button-color: $naranja_erco;
+$button-hover-color:$naranja_erco;
+$background-color: rgb(55, 0, 255);
+$font-family: 'Ubuntu', sans-serif;
+$input-border-color: rgb(229, 255, 0);
+$input-focus-color: rgb(255, 0, 200);
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+body{
+    font-family: "Ubuntu", serif;
+    color: $color_texto;
+}
+
+

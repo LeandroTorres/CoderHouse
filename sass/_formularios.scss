@@ -1,0 +1,46 @@
+form {
+    background-color: rgb(235, 196, 196);
+    border: 1px solid $input-border-color;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 5px;
+    box-shadow: 0 4px 6px rgb(185, 39, 39);
+  
+    label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: bold;
+    }
+  
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    input[type="date"],
+    input[type="radio"] {
+      width: 100%;
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+      border: 1px solid $input-border-color;
+      border-radius: 4px;
+      transition: border-color 0.3s, box-shadow 0.3s;
+  
+      &:focus {
+        border-color: $input-focus-color;
+        box-shadow: 0 0 5px $input-focus-color;
+        outline: none;
+      }
+    }
+}
+button {
+    background-color: $button-color;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: $button-hover-color;
+    }
+  }

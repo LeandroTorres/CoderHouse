@@ -1,0 +1,21 @@
+header {
+    background-color: $gris_erco;
+    padding: 10px;
+  
+    .nav {
+      .nav-link {
+        color: $naranja_erco;
+        text-transform: uppercase;
+        transition: color 0.3s;
+  
+        &:hover {
+          color: $celeste_erco;
+        }
+      }
+  
+      .nav-link.active {
+        font-weight: bold;
+        border-bottom: 2px solid white;
+      }
+    }
+  }

@@ -1,35 +1,87 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
- 
-.container{
-    background-color: rgb(255, 255, 255);
+/* color primario */
+/* color secundario */
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+body {
+  font-family: "Ubuntu", serif;
+  color: rgb(24, 22, 22);
 }
 
-.row > *{
-    border: 1px solid rgb(66, 125, 191);
+header {
+  background-color: rgb(153, 153, 153);
+  padding: 10px;
+}
+header .nav .nav-link {
+  color: rgb(246, 153, 36);
+  text-transform: uppercase;
+  transition: color 0.3s;
+}
+header .nav .nav-link:hover {
+  color: rgb(175, 221, 235);
+}
+header .nav .nav-link.active {
+  font-weight: bold;
+  border-bottom: 2px solid white;
 }
 
-.nav-item{
-    background-color: rgb(72, 221, 235);/* color erco */
-    border: 5px solid;
-
+aside {
+  background-color: rgb(246, 153, 36);
+  border-right: 2px solid rgb(175, 221, 235);
+  padding: 15px;
+}
+aside h2 {
+  color: rgb(66, 125, 191);
+  margin-bottom: 0.5rem;
+}
+aside p {
+  line-height: 1.6;
 }
 
-.row{
-    background-color: rgb(246, 153, 36);/* color erco */
+form {
+  background-color: rgb(235, 196, 196);
+  border: 1px solid rgb(229, 255, 0);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 5px;
+  box-shadow: 0 4px 6px rgb(185, 39, 39);
 }
-.row aside{ /* agrego clase a la predeterminada de bs para diferencias color de aside */
-    background-color: rgb(66, 125, 191);/* color erco */
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
 }
-.row navBar{
-    background-color: rgb(153, 153, 153);
+form input[type=text],
+form input[type=email],
+form input[type=number],
+form input[type=date],
+form input[type=radio] {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid rgb(229, 255, 0);
+  border-radius: 4px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+form input[type=text]:focus,
+form input[type=email]:focus,
+form input[type=number]:focus,
+form input[type=date]:focus,
+form input[type=radio]:focus {
+  border-color: rgb(255, 0, 200);
+  box-shadow: 0 0 5px rgb(255, 0, 200);
+  outline: none;
 }
 
-.formulariosDobles{
-    display: grid;
-    height: 50vh;
+button {
+  background-color: rgb(246, 153, 36);
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+button:hover {
+  background-color: rgb(246, 153, 36);
 }
 
+/*# sourceMappingURL=styles.css.map */
