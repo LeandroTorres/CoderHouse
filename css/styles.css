@@ -32,6 +32,10 @@ footer p {
   text-align: center;
   text-decoration: underline;
 }
+footer a {
+  text-decoration: none;
+  color: rgb(153, 153, 153);
+}
 
 aside {
   background-image: linear-gradient(rgb(246, 153, 36), rgb(175, 221, 235));
