@@ -1,5 +1,5 @@
 main{
-    background-color:$celeste_erco; 
+    background-image: linear-gradient($azul_erco 75%, $celeste_erco); 
     h1{
         color: $naranja_erco;
     }
@@ -7,4 +7,13 @@ main{
         border: 15px solid $azul_erco;
     }
 
+}
+.animaciones{
+    img{
+        border: 2px solid black;
+    }
+    img:hover{
+        transform: scale(0.5);
+
+    }
 }

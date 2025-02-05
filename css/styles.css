@@ -24,7 +24,8 @@ header .nav .nav-link.active {
 }
 
 footer {
-  background-color: rgb(66, 125, 191);
+  width: 100vw;
+  background-image: linear-gradient(to left, rgb(66, 125, 191), rgb(175, 221, 235));
   font-style: oblique rgb(66, 125, 191);
 }
 footer p {
@@ -33,7 +34,8 @@ footer p {
 }
 
 aside {
-  background-color: rgb(246, 153, 36);
+  background-image: linear-gradient(rgb(246, 153, 36), rgb(175, 221, 235));
+  width: 100vw;
   border-right: 2px solid rgb(175, 221, 235);
   padding: 15px;
 }
@@ -46,13 +48,20 @@ aside p {
 }
 
 main {
-  background-color: rgb(175, 221, 235);
+  background-image: linear-gradient(rgb(66, 125, 191) 75%, rgb(175, 221, 235));
 }
 main h1 {
   color: rgb(246, 153, 36);
 }
 main .carousel-inner {
   border: 15px solid rgb(66, 125, 191);
+}
+
+.animaciones img {
+  border: 2px solid black;
+}
+.animaciones img:hover {
+  transform: scale(0.5);
 }
 
 form {

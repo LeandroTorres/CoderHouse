@@ -1,5 +1,6 @@
 footer{
-    background-color:$azul_erco;
+    width: 100vw;
+    background-image: linear-gradient( to left, $azul_erco, $celeste_erco);
     font-style: oblique $azul_erco;
     p{
         text-align: center;

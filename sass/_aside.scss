@@ -1,5 +1,6 @@
 aside {
-    background-color:$naranja_erco;
+    background-image: linear-gradient($naranja_erco, $celeste_erco);
+    width: 100vw;
     border-right: 2px solid $celeste_erco;
     padding: 15px;
   
