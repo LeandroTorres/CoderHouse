@@ -1,6 +1,7 @@
 footer{
     width: 100vw;
-    background-image: linear-gradient( to left, $azul_erco, $celeste_erco);
+    background-image: linear-gradient($celeste_erco, $azul_erco, $gris_erco, $naranja_erco);
+    border: 1px solid $azul_erco;
     font-style: oblique $azul_erco;
     p{
         text-align: center;

@@ -1,10 +1,11 @@
 main{
-    background-image: linear-gradient($azul_erco 75%, $celeste_erco); 
+    background-color: white;
+    border: 1px solid $azul_erco;
     h1{
         color: $naranja_erco;
     }
     .carousel-inner{
-        border: 15px solid $azul_erco;
+        border: 5px solid $celeste_erco;
     }
 
 }
