@@ -3,112 +3,124 @@
 <html lang="es">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="../assets/favicon-32x32.png" type="image/x-icon">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-	<title>Escuela</title>
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-	<link rel="stylesheet" href="../css/styles.css">
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  /><!-- libreria animaciones -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="../assets/favicon-32x32.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+  <title>Escuela</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- libreria animaciones -->
 </head>
+
 <body>
-    <div class="container"><!-- "class= container" corresponde a bootstrap -->
-        <div class="row">
-            <header class="col-12">
-                <ul class="nav justify-content-center">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="../pages/contacto.html">Contacto</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="../pages/escuela.html">Escuela</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../pages/gestion.html">Gestion</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../pages/tecnica.html">Técnica</a>
-                    </li>
-                </ul>
-            </header>
-        </div>
-        <div class="row">
-            <aside class="col-12 col-sm-6 col-md-3">
-                <h1>ESCUELA</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet, animi quam! Error, in voluptate? Voluptates
-                        facere eos dignissimos. Illo perferendis fugit quod vel ullam sequi doloribus officiis iure sint eaque quis
-                        facere debitis a unde consequatur quae non ex earum deserunt animi, delectus id laudantium dicta officia.
-                        Maiores quia, dignissimos ipsam et veritatis quos aut sed minus dicta, magnam natus quam ullam maxime
-                        voluptas nulla non asperiores veniam doloremque id ut atque vitae. Beatae ex, ab repellendus porro inventore
-                        doloremque, labore alias rerum quas quos optio assumenda omnis temporibus dolores, earum repellat magnam.
-                        Perferendis nobis dolorum explicabo, tempore voluptatem illum.
-                    </p>
-            </aside><!-- las clases "col-sm-n" se usan para los breakpoint, para que el contenido sea responsive-->
-            <main class="col-12 col-sm-6 col-md-9">
-                <div class="container">
-                </div>
-                <div class="item animate__animated animate__fadeInRight">
-                    <h3 class="tituloFormularios animate__animated animate__rubberBand">Selecciona el curso o capacitacion que mas te interese y nos ponemos en contacto con vos!!!</h3>
-                    <form action="/submit" method="post">
-                        <label for="nombre">Nombre:</label>
-                        <input type="text" name="nombre" id="nombre"> <br>
-        
-                        <label for="mail">Email:</label>
-                        <input type="email" name="email" id="email"> <br>
-        
-                        <label for="telefono">Telefono:</label>
-                        <input type="number" name="telefono" id="telefono"> <br>
-        
-                        <label for="Curso">Seleccioná tu curso:</label> <br>
-                        <input type="radio" name="" id="">
-                        <label for="">Instalacio A/A Split</label>
-                        <img src="../assets/split.jpeg" alt="Imagen promocional curso split" width="150" height="150" /> <br>
-        
-                        <input type="radio" name="" id="">
-                        <label for="">Rep. Equipos Trifasicos</label>
-                        <img src="../assets/trifasico.jpeg" alt="Imagen promocional curso trifasico" width="150" height="150" />
-                        <br>
-                        
-                        <input type="radio" name="" id="">
-                        <label for="">Auxiliar Electricista</label>
-                        <img src="../assets/auxiliar elec actualizado 24.png" alt="Imagen promocional curso aux elec" width="150"
-                            height="150" /><br>
-                        <button>Enviar</button>        
-                    </form>
-                </div>
-            </main><!-- las clases de bootstrap trabajan predefinidas con 12 columnas disponibles, el "n" en el nombre de las clases corresponde al numero de columnas que va a ocupar-->
-        </div>
-        <div class="row">
-            <footer class="col">
-                <p>ERCO Especialistas en Refrigeración</p>
-                <div class="container text-center"><!-- inserto bootstrap para armar footer -->
-                  <div class="row">
-                    <div class="col">
-                      <img src="../assets/logoInstagram.png" alt="logo instagram" height="30px" width="30px">
-                      <a href="https://www.instagram.com/erco_comunidad?igsh=MXBwenB6dG40cDlodg==">@erco_comunidad</a>
-                    </div>
-                    <div class="col">
-                      <img src="../assets/facebook_icon-icons.com_53612.png" alt="logo facebook" width="30px" height="30px">
-                      <a href="https://www.facebook.com/share/14zJqpQQrY/">Erco Refrigeracion</a>
-                    </div>
-                    <div class="col">
-                      <img src="../assets/logoWhatsapp.png" alt="logo whatsapp" width="30px" height="30px">
-                      <a href="https://wa.me/+5493513459325">Escribinos!</a>
-                    </div>
-                  </div>
-                </div>
-            </footer>
-        </div>
+  <div class="botonWhats">
+    <img src="../assets/logoWhatsapp.png" alt="Botón Whatsapp" width="50px" height="50px">
+    <!-- Botón flotante whatsapp -->
+  </div>
+  <div class="container"><!-- "class= container" corresponde a bootstrap -->
+    <div class="row">
+      <header class="col-12">
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/escuela.html">Escuela</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/gestion.html">Gestion</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/tecnica.html">Técnica</a>
+          </li>
+        </ul>
+      </header>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    </body>
-</html>    
-                
+    <div class="row">
+      <aside class="col-12 col-sm-6 col-md-3">
+        <h1>ESCUELA</h1>
+        <p>En nuestra escuela ofrecemos una amplia variedad de cursos diseñados para formar técnicos capacitados en
+          diferentes áreas del rubro. Nuestro objetivo es brindar conocimientos teóricos y prácticos que permitan
+          desarrollar habilidades clave para el mundo laboral.
+          Contamos con capacitaciones en instalación de aires acondicionados tipo split, reparación de equipos
+          trifásicos, auxiliar electricista y muchas otras especialidades. Cada curso está pensado para adaptarse a las
+          necesidades del mercado, con instructores experimentados y materiales actualizados.
+          Si buscas ampliar tus conocimientos, mejorar tus oportunidades laborales o especializarte en un área técnica,
+          nuestra escuela es el lugar ideal. Te invitamos a conocer nuestros programas y sumarte a la formación que
+          mejor se adapte a tus intereses.
+        </p>
+      </aside><!-- las clases "col-sm-n" se usan para los breakpoint, para que el contenido sea responsive-->
+      <main class="col-12 col-sm-6 col-md-9">
+        <div class="container">
+        </div>
+        <div class="item animate__animated animate__fadeInRight">
+          <h3 class="tituloFormularios animate__animated animate__rubberBand">Selecciona el curso o capacitacion que mas
+            te interese y nos ponemos en contacto con vos!!!</h3>
+          <form action="/submit" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre"> <br>
+
+            <label for="mail">Email:</label>
+            <input type="email" name="email" id="email"> <br>
+
+            <label for="telefono">Telefono:</label>
+            <input type="number" name="telefono" id="telefono"> <br>
+
+            <label for="Curso">Seleccioná tu curso:</label> <br>
+            <input type="radio" name="" id="">
+            <label for="">Instalacio A/A Split</label>
+            <img src="../assets/split.jpeg" alt="Imagen promocional curso split" width="150" height="150" /> <br>
+
+            <input type="radio" name="" id="">
+            <label for="">Rep. Equipos Trifasicos</label>
+            <img src="../assets/trifasico.jpeg" alt="Imagen promocional curso trifasico" width="150" height="150" />
+            <br>
+
+            <input type="radio" name="" id="">
+            <label for="">Auxiliar Electricista</label>
+            <img src="../assets/auxiliar elec actualizado 24.png" alt="Imagen promocional curso aux elec" width="150"
+              height="150" /><br>
+            <button>Enviar</button>
+          </form>
+        </div>
+      </main>
+      <!-- las clases de bootstrap trabajan predefinidas con 12 columnas disponibles, el "n" en el nombre de las clases corresponde al numero de columnas que va a ocupar-->
+    </div>
+    <div class="row">
+      <footer class="col">
+        <p>ERCO Especialistas en Refrigeración</p>
+        <div class="container text-center"><!-- inserto bootstrap para armar footer -->
+          <div class="row">
+            <div class="col">
+              <img src="../assets/logoInstagram.png" alt="logo instagram" height="30px" width="30px">
+              <a href="https://www.instagram.com/erco_comunidad?igsh=MXBwenB6dG40cDlodg==">@erco_comunidad</a>
+            </div>
+            <div class="col">
+              <img src="../assets/facebook_icon-icons.com_53612.png" alt="logo facebook" width="30px" height="30px">
+              <a href="https://www.facebook.com/share/14zJqpQQrY/">Erco Refrigeracion</a>
+            </div>
+            <div class="col">
+              <img src="../assets/logoWhatsapp.png" alt="logo whatsapp" width="30px" height="30px">
+              <a href="https://wa.me/+5493513459325">Escribinos!</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

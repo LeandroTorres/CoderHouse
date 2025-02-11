@@ -74,6 +74,12 @@ main .carousel-inner {
   transform: scale(0.5);
 }
 
+.botonWhats {
+  position: fixed;
+  top: 5px;
+  right: 50px;
+}
+
 form {
   background-color: rgba(246, 153, 36, 0.8);
   border: 1px solid rgb(66, 125, 191);
