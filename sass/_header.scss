@@ -4,9 +4,9 @@ header {
   
     .nav {
       .nav-link {
-        color: $naranja_erco;
+        color: white;
         text-transform: uppercase;
-        transition: color 0.3s;
+        transition: color 0.5s;
   
         &:hover {
           color: $celeste_erco;
