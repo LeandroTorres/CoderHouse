@@ -24,3 +24,19 @@ main{
     top:5px;
     right: 50px;
 }
+.carousel-inner img {
+    max-width: 100%;
+    max-height: 600px; /* Maximo de altura */
+    object-fit: contain; /* Para mantener la proporción */
+  }
+
+.card img{
+    max-width: 100%;
+    max-height: 100px;
+    object-fit: contain;
+}
+.tituloCards{
+    font-size: 40px;
+    color: $gris_erco;
+    text-align: center;   
+}
