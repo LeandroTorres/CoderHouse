@@ -12,9 +12,9 @@ header {
   padding: 10px;
 }
 header .nav .nav-link {
-  color: rgb(246, 153, 36);
+  color: white;
   text-transform: uppercase;
-  transition: color 0.3s;
+  transition: color 0.5s;
 }
 header .nav .nav-link:hover {
   color: rgb(175, 221, 235);
