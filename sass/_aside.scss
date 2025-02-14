@@ -2,18 +2,14 @@ aside {
     background-color: white;
     width: 100vw;
     border: 1px solid $azul_erco;
-    padding: 15px;
   
-    h2 {
-      color: $azul_erco;
+  
+    h1 {
+      @include tituloAside($azul_erco, 45px);
       margin-bottom: 0.5rem;
     }
-  
     p {
-      line-height: 1.6;
-    }
+      @include textoAside(black, 15px);
+      line-height: 1.6;      
   }
-  .logosAside{
-    display: grid;
-    
-  }
+}

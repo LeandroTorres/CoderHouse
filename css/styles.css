@@ -42,18 +42,16 @@ aside {
   background-color: white;
   width: 100vw;
   border: 1px solid rgb(66, 125, 191);
-  padding: 15px;
 }
-aside h2 {
+aside h1 {
   color: rgb(66, 125, 191);
+  font-size: 45px;
   margin-bottom: 0.5rem;
 }
 aside p {
+  color: black;
+  font-size: 15px;
   line-height: 1.6;
-}
-
-.logosAside {
-  display: grid;
 }
 
 main {
